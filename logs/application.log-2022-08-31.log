@@ -1,0 +1,27 @@
+[2022-08-31T09:40:19.649] [ERROR] application - TencentCloudSDKHttpException [Error]: You are not authorized to perform this operation. Check your CAM policies, and ensure that you are using the correct access keys. [[request id:d67ac4b0-164e-4a63-bc89-ffe5b6b65f25]you are not authorized to perform operation (ocr:GeneralHandwritingOCR)
+resource (*) has no permission
+]
+    at Client.parseResponse (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\tencentcloud-sdk-nodejs\tencentcloud\common\abstract_client.js:136:33)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\tencentcloud-sdk-nodejs\tencentcloud\common\abstract_client.js:65:28) {
+  requestId: 'd67ac4b0-164e-4a63-bc89-ffe5b6b65f25',
+  code: 'AuthFailure.UnauthorizedOperation'
+}
+[2022-08-31T09:40:29.506] [ERROR] application - TencentCloudSDKHttpException [Error]: You are not authorized to perform this operation. Check your CAM policies, and ensure that you are using the correct access keys. [[request id:718fcedd-c19e-4222-98f4-733eca0b0369]you are not authorized to perform operation (ocr:GeneralHandwritingOCR)
+resource (*) has no permission
+]
+    at Client.parseResponse (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\tencentcloud-sdk-nodejs\tencentcloud\common\abstract_client.js:136:33)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\tencentcloud-sdk-nodejs\tencentcloud\common\abstract_client.js:65:28) {
+  requestId: '718fcedd-c19e-4222-98f4-733eca0b0369',
+  code: 'AuthFailure.UnauthorizedOperation'
+}
+[2022-08-31T09:44:38.259] [ERROR] application - TencentCloudSDKHttpException [Error]: You are not authorized to perform this operation. Check your CAM policies, and ensure that you are using the correct access keys. [[request id:063c5bd0-43d7-4d91-bc8c-551edd652de6]you are not authorized to perform operation (ocr:GeneralHandwritingOCR)
+resource (*) has no permission
+]
+    at Client.parseResponse (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\tencentcloud-sdk-nodejs\tencentcloud\common\abstract_client.js:136:33)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\tencentcloud-sdk-nodejs\tencentcloud\common\abstract_client.js:65:28) {
+  requestId: '063c5bd0-43d7-4d91-bc8c-551edd652de6',
+  code: 'AuthFailure.UnauthorizedOperation'
+}

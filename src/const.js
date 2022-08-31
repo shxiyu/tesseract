@@ -59,8 +59,8 @@ exports.APP_ID = '27156654';
 exports.API_KEY = '2ufVCaR0G6mpUMyPXkDO3jvL';
 exports.SECRET_KEY = 'ayv3PGDL6GeWX3HG4Vfe1z8pNh7PLg58';
 // 腾讯
-exports.SECRETID_TX = 'AKIDRo5B7ze8OQDtNdNvFKAm9HApLgq33azC';
-exports.SECRETKEY_TX = '4vXw74mESSDj034viJgojV6TcWGl12rQ';
+exports.SECRETID_TX = 'AKIDKjA1smtvz462tjayIbpwx7aTTUrFfGKM';
+exports.SECRETKEY_TX = 'DSk9d1Rm17MbiVJ0WwBFAy8lCSN5c1IN';
 
 /**
  * 代理
