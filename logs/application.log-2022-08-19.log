@@ -1,0 +1,158 @@
+[2022-08-19T15:23:51.367] [ERROR] application - ReferenceError: query is not defined
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\login\login.js:10:36
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:49:11
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-static\index.js:53:15)
+[2022-08-19T15:27:50.378] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at logger (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-logger\index.js:67:13)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-proxy-middleware\lib\index.js:15:11
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+[2022-08-19T15:29:25.914] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at logger (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-logger\index.js:67:13)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-proxy-middleware\lib\index.js:15:11
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+[2022-08-19T15:29:37.773] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at logger (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-logger\index.js:67:13)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-proxy-middleware\lib\index.js:15:11
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+[2022-08-19T15:30:43.234] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-jwt\lib\index.js:66:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async logger (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-logger\index.js:67:7)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-proxy-middleware\lib\index.js:15:5
+    at async bodyParser (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-cors\dist\index.js:36:14)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-log4\koa-logger.js:86:7 {
+  originalError: TokenExpiredError: jwt expired
+      at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\jsonwebtoken\verify.js:152:21
+      at getSecret (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\jsonwebtoken\verify.js:90:14)
+      at Object.module.exports [as verify] (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\jsonwebtoken\verify.js:94:10)
+      at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-jwt\lib\verify.js:5:13
+      at new Promise (<anonymous>)
+      at module.exports (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-jwt\lib\verify.js:4:12)
+      at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-jwt\lib\index.js:38:64
+      at Array.map (<anonymous>)
+      at jwt (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-jwt\lib\index.js:38:43)
+      at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-unless\index.js:29:12 {
+    expiredAt: 2022-08-19T07:27:46.000Z
+  }
+}
+[2022-08-19T15:30:57.933] [ERROR] application - ReferenceError: secret is not defined
+    at token.getJWTPayload (C:\Users\信大气象\Desktop\ceshi\lianxi\classList\token.js:24:44)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\login\login.js:14:25
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:49:11
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+[2022-08-19T15:33:55.559] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-jwt\lib\index.js:66:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async logger (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-logger\index.js:67:7)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-proxy-middleware\lib\index.js:15:5
+    at async bodyParser (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-cors\dist\index.js:36:14)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-log4\koa-logger.js:86:7 {
+  originalError: TokenExpiredError: jwt expired
+      at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\jsonwebtoken\verify.js:152:21
+      at getSecret (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\jsonwebtoken\verify.js:90:14)
+      at Object.module.exports [as verify] (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\jsonwebtoken\verify.js:94:10)
+      at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-jwt\lib\verify.js:5:13
+      at new Promise (<anonymous>)
+      at module.exports (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-jwt\lib\verify.js:4:12)
+      at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-jwt\lib\index.js:38:64
+      at Array.map (<anonymous>)
+      at jwt (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-jwt\lib\index.js:38:43)
+      at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-unless\index.js:29:12 {
+    expiredAt: 2022-08-19T07:33:46.000Z
+  }
+}
+[2022-08-19T16:02:09.774] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'split')
+    at token.getJWTPayload (C:\Users\信大气象\Desktop\ceshi\lianxi\classList\token.js:24:29)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:60:25
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-unless\index.js:26:14
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at logger (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-logger\index.js:67:13)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-proxy-middleware\lib\index.js:15:11
+[2022-08-19T16:30:28.374] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'user')
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\login\login.js:13:49
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:64:11
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-static\index.js:53:15)
+[2022-08-19T16:30:41.905] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'user')
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\login\login.js:13:49
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:64:11
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-static\index.js:53:15)
+[2022-08-19T16:41:50.555] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'split')
+    at token.getJWTPayload (C:\Users\信大气象\Desktop\ceshi\lianxi\classList\token.js:24:29)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:19:29
+[2022-08-19T16:41:52.480] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'split')
+    at token.getJWTPayload (C:\Users\信大气象\Desktop\ceshi\lianxi\classList\token.js:24:29)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:19:29
+[2022-08-19T16:41:52.943] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'split')
+    at token.getJWTPayload (C:\Users\信大气象\Desktop\ceshi\lianxi\classList\token.js:24:29)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:19:29
+[2022-08-19T16:41:53.287] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'split')
+    at token.getJWTPayload (C:\Users\信大气象\Desktop\ceshi\lianxi\classList\token.js:24:29)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:19:29
+[2022-08-19T16:41:53.567] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'split')
+    at token.getJWTPayload (C:\Users\信大气象\Desktop\ceshi\lianxi\classList\token.js:24:29)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:19:29
+[2022-08-19T16:41:53.837] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'split')
+    at token.getJWTPayload (C:\Users\信大气象\Desktop\ceshi\lianxi\classList\token.js:24:29)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:19:29
+[2022-08-19T16:41:54.079] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'split')
+    at token.getJWTPayload (C:\Users\信大气象\Desktop\ceshi\lianxi\classList\token.js:24:29)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:19:29
+[2022-08-19T16:41:54.382] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'split')
+    at token.getJWTPayload (C:\Users\信大气象\Desktop\ceshi\lianxi\classList\token.js:24:29)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:19:29

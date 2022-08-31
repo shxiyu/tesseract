@@ -1,0 +1,14 @@
+[2022-08-26T16:56:06.775] [ERROR] application - TencentCloudSDKHttpException [Error]: The SecretId is not found, please ensure that your SecretId is correct.
+    at Client.parseResponse (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\tencentcloud-sdk-nodejs\tencentcloud\common\abstract_client.js:136:33)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\tencentcloud-sdk-nodejs\tencentcloud\common\abstract_client.js:65:28) {
+  requestId: '9b0367de-55ab-4671-ba60-657f046c3aa9',
+  code: 'AuthFailure.SecretIdNotFound'
+}
+[2022-08-26T16:58:31.915] [ERROR] application - TencentCloudSDKHttpException [Error]: The SecretId is not found, please ensure that your SecretId is correct.
+    at Client.parseResponse (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\tencentcloud-sdk-nodejs\tencentcloud\common\abstract_client.js:136:33)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\tencentcloud-sdk-nodejs\tencentcloud\common\abstract_client.js:65:28) {
+  requestId: '8938253b-8de4-4cc6-940a-5885e73907c1',
+  code: 'AuthFailure.SecretIdNotFound'
+}

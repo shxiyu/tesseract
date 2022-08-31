@@ -1,0 +1,113 @@
+[2022-08-18T14:51:31.130] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'file')
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\echarts\echarts.js:47:58
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:31:11
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-static\index.js:53:15)
+[2022-08-18T14:54:43.532] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'file')
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\echarts\echarts.js:47:58
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:40:11
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-static\index.js:53:15)
+[2022-08-18T14:57:10.449] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'file')
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\echarts\echarts.js:47:58
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:40:11
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-static\index.js:53:15)
+[2022-08-18T15:00:57.014] [ERROR] application - TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+    at new ReadStream (node:internal/fs/streams:171:5)
+    at Object.createReadStream (node:fs:2886:10)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\echarts\echarts.js:50:23
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:40:11 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[2022-08-18T15:06:08.722] [ERROR] application - TypeError: Cannot read properties of undefined (reading 'file')
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\echarts\echarts.js:55:34
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:40:11
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-static\index.js:53:15)
+[2022-08-18T15:19:21.758] [ERROR] application - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa\lib\response.js:215:35)
+    at logger (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-logger\index.js:77:33)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-proxy-middleware\lib\index.js:15:5
+    at async bodyParser (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-cors\dist\index.js:91:9)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-log4\koa-logger.js:86:7
+[2022-08-18T15:19:28.001] [ERROR] application - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa\lib\response.js:215:35)
+    at logger (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-logger\index.js:77:33)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-proxy-middleware\lib\index.js:15:5
+    at async bodyParser (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-cors\dist\index.js:91:9)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-log4\koa-logger.js:86:7
+[2022-08-18T15:31:39.602] [ERROR] application - ReferenceError: NodeMysql is not defined
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\echarts\echarts.js:63:5
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:40:5
+    at async serve (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-logger\index.js:67:7)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-proxy-middleware\lib\index.js:15:5
+    at async bodyParser (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-cors\dist\index.js:91:9)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-log4\koa-logger.js:86:7
+[2022-08-18T15:32:47.371] [ERROR] application - ReferenceError: consts is not defined
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\echarts\echarts.js:69:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\routes\echarts\echarts.js:64:5
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:40:5
+    at async serve (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-logger\index.js:67:7)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-proxy-middleware\lib\index.js:15:5
+    at async bodyParser (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-cors\dist\index.js:91:9)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-log4\koa-logger.js:86:7
+[2022-08-18T16:10:03.933] [ERROR] application - TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received undefined
+    at makeCallback (node:fs:186:3)
+    at Object.unlink (node:fs:1719:14)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\echarts\echarts.js:82:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\routes\echarts\echarts.js:66:5
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:40:5
+    at async serve (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-logger\index.js:67:7)
+    at async C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa2-proxy-middleware\lib\index.js:15:5
+    at async bodyParser (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-bodyparser\index.js:95:5) {
+  code: 'ERR_INVALID_CALLBACK'
+}

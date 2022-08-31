@@ -1,0 +1,44 @@
+#!/usr/bin/env node
+
+/**
+ * 模块依赖.
+ */
+const app = require('../app');
+const consts = require('../src/const');
+const {systemLogger} = require('../logger/logger');
+
+/**
+ * 从环境中获取端口并存储在Express中, 如果没有则拿去自定义端口
+ */
+var port = normalizePort(process.env.PORT || consts.PORT);
+// app.set('port', port);
+
+/**
+ * 启动服务器
+ */
+app.listen(port, () => {
+  console.log(`服务器已经启动:localhost:${consts.PORT}`);
+});
+
+/**
+ * 错误事件处理
+ */
+app.on(consts.codeError, (error, ctx) => {
+  // 系统日志--记录系统状态的error
+  systemLogger.error(error);
+  if (error == consts.parErrText) ctx.status = consts.code500;
+  else if (error == consts.modErrText || error == consts.addErrText || error == consts.obtErrText || error == consts.updErrText) ctx.status = consts.code201;
+});
+
+/**
+ * 端口规划
+ * @param val 端口号
+ * @returns 端口规划为数字, 字符串, 布尔值
+ */
+function normalizePort(val) {
+  var port = parseInt(val, 10);
+
+  if (isNaN(port)) return val;
+  if (port >= 0) return port;
+  return false;
+}

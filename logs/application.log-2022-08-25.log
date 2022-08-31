@@ -1,0 +1,16 @@
+[2022-08-25T15:00:25.090] [ERROR] application - Error: ENOENT: no such file or directory, open '../../public/echarts/images/1660808174737.png'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\characterRecognition\characterRecognition.js:8:18
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:65:11 {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '../../public/echarts/images/1660808174737.png'
+}

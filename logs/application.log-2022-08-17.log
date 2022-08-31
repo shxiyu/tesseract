@@ -1,0 +1,38 @@
+[2022-08-17T16:06:18.884] [ERROR] application - ReferenceError: path is not defined
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\echarts\echarts.js:6:20
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:31:11
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-static\index.js:53:15)
+[2022-08-17T18:14:51.003] [ERROR] application - ReferenceError: fs is not defined
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\index\index.js:6:14
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:31:11
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-static\index.js:53:15)
+[2022-08-17T18:15:06.894] [ERROR] application - Error: ENOENT: no such file or directory, open './dist/index.html'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\routes\index\index.js:6:17
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (C:\Users\信大气象\Desktop\ceshi\lianxi\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\信大气象\Desktop\ceshi\lianxi\app.js:31:11 {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: './dist/index.html'
+}
