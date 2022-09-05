@@ -5,7 +5,6 @@ const consts = require('../../src/const');
 router
   // 登录
   .get('/login', async ctx => {
-    console.log(ctx.query, consts.verification, 'mmm');
     if (Number(ctx.query.code) == consts.verification) {
       ctx.body = {
         code: consts.code200,
